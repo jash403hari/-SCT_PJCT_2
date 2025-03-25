@@ -1,1 +1,1 @@
-# -SCT_PJCT_2
+# SCT_PJCT_2
