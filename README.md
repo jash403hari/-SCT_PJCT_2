@@ -48,11 +48,11 @@
         return new_image
 
 # Check if image exists before encrypting
-if os.path.exists(image_path):
-    image = Image.open(image_path)  # Load image
-    print("Original image loaded successfully.")
+       if os.path.exists(image_path):
+       image = Image.open(image_path)  # Load image
+       print("Original image loaded successfully.")
 
-        # Encrypt Image
+ # Encrypt Image
         encrypted_image = encrypt_image(image, key)
         encrypted_image.save("encrypted_image.png")  # Save encrypted image
         encrypted_image.show()  # Display encrypted image
