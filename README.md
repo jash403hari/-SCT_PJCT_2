@@ -1,4 +1,4 @@
-# SCT_PJCT_2
+# SCT_CS_2
 # === IMAGE ENCRYPTION & DECRYPTION ===
 # This program encrypts and decrypts an image using XOR operation.
 
